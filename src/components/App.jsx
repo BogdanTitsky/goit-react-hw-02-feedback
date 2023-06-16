@@ -21,7 +21,7 @@ export class App extends Component {
       return {
         [option]: prevState[option] + 1,
       };
-    }); 
+    });
   };
 
   countPositiveFeedbackPercentage = () => {
